@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/health"
+            android:title="Health" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/food"
+            android:title="Food" />
+        <item
+            android:id="@+id/nav_financial"
+            android:icon="@drawable/financial"
+            android:title="Financial" />
+        <item
+            android:id="@+id/nav_housing"
+            android:icon="@drawable/housing"
+            android:title="Housing" />
+        <item
+            android:id="@+id/nav_childcare"
+            android:icon="@drawable/childcare"
+            android:title="Childcare" />
+        <item
+            android:id="@+id/nav_education"
+            android:icon="@drawable/education"
+            android:title="Education" />
+        <item
+            android:id="@+id/nav_employment"
+            android:icon="@drawable/employment"
+            android:title="Employment" />
+        <item
+            android:id="@+id/nav_lgbtq"
+            android:icon="@drawable/lgbtq"
+            android:title="lgbtq" />
+        <item
+            android:id="@+id/nav_transportation"
+            android:icon="@drawable/transportation"
+            android:title="Transportation" />
+        <item
+            android:id="@+id/nav_vets"
+            android:icon="@drawable/vets"
+            android:title="Vets" />
+        <item
+            android:id="@+id/nav_legal"
+            android:icon="@drawable/legal"
+            android:title="Legal" />
+
+    </group>
+    <button
+        android:id="@+id/B_home"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="home"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+
+</menu>
